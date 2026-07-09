@@ -28,6 +28,34 @@ For deep dives, see the companion guides:
 | `INTEGRATION_AND_OPERATIONS.md` | Build, flash, and debug instructions; CubeMX configuration reference |
 | `SENSORS_AND_PERIPHERALS.md` | Sensor drivers, I²C/SPI/UART buses, DMA pipelines, GNSS integration |
 | `BUILD_INFO.txt` | Snapshot of the build configuration |
+| [`docs/BLE Module System Diagram.pdf`](docs/BLE%20Module%20System%20Diagram.pdf) | Full hardware system diagram (rendered below) |
+
+---
+
+## System Diagram
+
+Full hardware system diagram of the MultiNav Pro+ BLE module ([PDF version](docs/BLE%20Module%20System%20Diagram.pdf)).
+
+### 1. System Overview
+![System Overview](docs/system-diagram-1.png)
+
+### 2. GNSS Module — MIA-M10Q (CON4)
+![BLE Module to GNSS Module](docs/system-diagram-2.png)
+
+### 3. Sensors Module (CON3)
+![BLE Module to Sensors Module](docs/system-diagram-3.png)
+
+### 4. Motors Driver & Battery Monitor (CON2)
+![BLE Module to Motors Driver and Battery Monitor](docs/system-diagram-4.png)
+
+### 5. Programmer / Debugger — ST-Link (CON1) & HSE Oscillator
+![Programmer Debugger and HSE](docs/system-diagram-5.png)
+
+### 6. RF Front-End
+![RF Front-End](docs/system-diagram-6.png)
+
+### 7. External Interrupt Mapping
+![External Interrupts](docs/system-diagram-7.png)
 
 ---
 

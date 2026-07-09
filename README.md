@@ -6,6 +6,28 @@ This firmware is published as **open source**. You are welcome to read, build, a
 
 ---
 
+## 📱 Companion App — RFOXiA Connect
+
+Control, automate, and chat with your MultiNav Pro+ modules from your phone. **RFOXiA Connect** is the official companion app for this firmware — live sensor telemetry, motor control, automation routines, and internet-independent long-range chat with voice messages.
+
+<p>
+  <a href="https://apps.apple.com/us/app/rfoxia-connect/id6759990021">
+    <img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us" alt="Download on the App Store" height="54">
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://play.google.com/store/apps/details?id=com.rfoxia.club">
+    <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play" height="80">
+  </a>
+</p>
+
+| Platform | Link |
+|----------|------|
+| iOS (App Store) | https://apps.apple.com/us/app/rfoxia-connect/id6759990021 |
+| Android (Google Play) | https://play.google.com/store/apps/details?id=com.rfoxia.club |
+| App overview | https://rfoxia.com/rfoxia-connect-app/ |
+
+---
+
 ## 1. Overview
 
 Firmware for the **MultiNav Pro+ BLE module**, based on the **STM32WB07CC** wireless microcontroller (Cortex-M0+, Bluetooth Low Energy 5.x).

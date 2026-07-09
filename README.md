@@ -6,7 +6,7 @@ This firmware is published as **open source**. You are welcome to read, build, a
 
 ---
 
-## � Get the MultiNav Pro+ Long-Range BLE Module
+## ⚡ Get the MultiNav Pro+ Long-Range BLE Module
 
 This firmware runs on the **[MultiNav Pro+ premium long-range BLE module](https://rfoxia.com/premium-ble-module/)** — a compact STM32WB07-based module with Coded PHY long-range Bluetooth, integrated GNSS, multi-sensor telemetry, and motor control, ready to drop into your product.
 
@@ -18,7 +18,7 @@ This firmware runs on the **[MultiNav Pro+ premium long-range BLE module](https:
 
 ---
 
-## �📱 Companion App — RFOXiA Connect
+## 📱 Companion App — RFOXiA Connect
 
 Control, automate, and chat with your MultiNav Pro+ modules from your phone. **RFOXiA Connect** is the official companion app for this firmware — live sensor telemetry, motor control, automation routines, and internet-independent long-range chat with voice messages.
 
@@ -28,7 +28,7 @@ Control, automate, and chat with your MultiNav Pro+ modules from your phone. **R
   </a>
   &nbsp;&nbsp;
   <a href="https://play.google.com/store/apps/details?id=com.rfoxia.club">
-    <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play" height="80">
+    <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play" height="62">
   </a>
 </p>
 

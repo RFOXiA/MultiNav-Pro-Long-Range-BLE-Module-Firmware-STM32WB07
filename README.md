@@ -23,7 +23,7 @@ This firmware runs on the **[MultiNav Pro+ premium long-range BLE module](https:
 Control, automate, and chat with your MultiNav Pro+ modules from your phone. **RFOXiA Connect** is the official companion app for this firmware — live sensor telemetry, motor control, automation routines, and internet-independent long-range chat with voice messages.
 
 <p>
-  <a href="https://apps.apple.com/us/app/rfoxia-connect/id6759990021"><img src="docs/badge-app-store.svg" alt="Download on the App Store" height="56"></a>&nbsp;&nbsp;<a href="https://play.google.com/store/apps/details?id=com.rfoxia.club"><img src="docs/badge-google-play.svg" alt="Get it on Google Play" height="56"></a>
+  <a href="https://apps.apple.com/us/app/rfoxia-connect/id6759990021"><img src="docs/badge-app-store.png" alt="Download on the App Store" height="56"></a>&nbsp;&nbsp;<a href="https://play.google.com/store/apps/details?id=com.rfoxia.club"><img src="docs/badge-google-play.png" alt="Get it on Google Play" height="56"></a>
 </p>
 
 | Platform | Link |

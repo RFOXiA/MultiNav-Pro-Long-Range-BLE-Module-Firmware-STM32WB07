@@ -6,7 +6,19 @@ This firmware is published as **open source**. You are welcome to read, build, a
 
 ---
 
-## 📱 Companion App — RFOXiA Connect
+## � Get the MultiNav Pro+ Long-Range BLE Module
+
+This firmware runs on the **[MultiNav Pro+ premium long-range BLE module](https://rfoxia.com/premium-ble-module/)** — a compact STM32WB07-based module with Coded PHY long-range Bluetooth, integrated GNSS, multi-sensor telemetry, and motor control, ready to drop into your product.
+
+<p>
+  <a href="https://rfoxia.com/premium-ble-module/"><b>➤ Explore the Premium BLE Module — rfoxia.com/premium-ble-module</b></a>
+</p>
+
+📚 **All documentation, resources, tutorials, and community support are available at [RFOXiA Club](https://club.rfoxia.com/)** — your hub for datasheets, integration guides, app downloads, and firmware updates: **https://club.rfoxia.com/**
+
+---
+
+## �📱 Companion App — RFOXiA Connect
 
 Control, automate, and chat with your MultiNav Pro+ modules from your phone. **RFOXiA Connect** is the official companion app for this firmware — live sensor telemetry, motor control, automation routines, and internet-independent long-range chat with voice messages.
 
@@ -222,3 +234,15 @@ Third-party components retain their respective licenses:
 - STM32 HAL, BLE stack, CMSIS — STMicroelectronics / ARM license terms (see file headers)
 - BMI270 driver — Bosch Sensortec license (see file headers)
 - ZMOD4xxx driver — Renesas license (see file headers)
+
+---
+
+## 🔗 Links
+
+| Resource | URL |
+|----------|-----|
+| 🛒 MultiNav Pro+ Premium BLE Module | https://rfoxia.com/premium-ble-module/ |
+| 📚 Documentation & Resources — RFOXiA Club | https://club.rfoxia.com/ |
+| 📱 RFOXiA Connect app (iOS) | https://apps.apple.com/us/app/rfoxia-connect/id6759990021 |
+| 📱 RFOXiA Connect app (Android) | https://play.google.com/store/apps/details?id=com.rfoxia.club |
+| 🌐 RFOXiA website | https://rfoxia.com/ |

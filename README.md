@@ -60,6 +60,10 @@ For deep dives, see the companion guides:
 
 ---
 
+![RFOXiA MultiNav Pro+ Modules](docs/rfoxia-modules.png)
+
+---
+
 ## System Diagram
 
 Full hardware system diagram of the MultiNav Pro+ BLE module ([PDF version](docs/BLE%20Module%20System%20Diagram.pdf)).

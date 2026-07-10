@@ -60,7 +60,11 @@ For deep dives, see the companion guides:
 
 ---
 
-![RFOXiA MultiNav Pro+ Modules](docs/rfoxia-modules.png)
+<a href="https://rfoxia.com/premium-ble-module/"><img src="docs/rfoxia-modules.png" alt="BLE Module"></a>
+
+<a href="https://rfoxia.com/premium-ble-module/"><img src="docs/rfoxia-connect-app.png" alt="BLE Module"></a>
+
+<a href="https://rfoxia.com/premium-ble-module/"><img src="docs/rfoxia-connect-app-chat.png" alt="BLE Module"></a>
 
 ---
 

@@ -116,12 +116,12 @@ Full hardware system diagram of the MultiNav Pro+ BLE module ([PDF version](docs
 
 ### Flash
 
-Use the provided launch configuration:
+Flash with **STM32CubeProgrammer** over SWD (recommended — flashing directly from the IDE often does not work correctly with this module):
 
-- `BLE Pro test Debug.launch` — CubeIDE debug/flash configuration
-- `BLE Pro test Debug.cfg` — OpenOCD/ST-LINK probe configuration
-
-Or flash the `.elf` with STM32CubeProgrammer over SWD.
+1. Connect an ST-LINK (V2/V3) to the module's SWD pins (see the system diagram below)
+2. Open **STM32CubeProgrammer** and connect (ST-LINK, SWD, Mode: *Under reset* if the target doesn't attach)
+3. `Erasing & Programming` → select `Debug/BLE Pro test Debug.elf` (or the `.hex`/`.bin`)
+4. Check **Verify programming** and **Run after programming**, then click **Start Programming**
 
 See `INTEGRATION_AND_OPERATIONS.md` for detailed instructions and troubleshooting.
 

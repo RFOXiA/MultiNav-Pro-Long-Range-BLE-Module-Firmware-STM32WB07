@@ -2,7 +2,7 @@
 
 © RFOXiA, Inc. — **All rights reserved to RFOXiA, Inc.**
 
-This firmware is published as **open source**. You are welcome to read, build, and study the code. RFOXiA, Inc. retains all rights to the MultiNav Pro+ product, its brand, and this firmware.
+This firmware is published as **open source**. You are welcome to read, build, run, and study the code. RFOXiA, Inc. retains all rights to the MultiNav Pro+ product, its brand, and this firmware.
 
 ---
 

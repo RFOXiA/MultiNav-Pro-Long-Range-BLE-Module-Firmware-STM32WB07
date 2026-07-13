@@ -120,8 +120,8 @@ Flash with **STM32CubeProgrammer** over SWD (recommended — flashing directly f
 
 1. Connect an ST-LINK (V2/V3) to the module's SWD pins (see the system diagram below)
 2. Open **STM32CubeProgrammer** and connect (ST-LINK, SWD, Mode: *Under reset* if the target doesn't attach)
-3. `Erasing & Programming` → select `Debug/BLE Pro test Debug.elf` (or the `.hex`/`.bin`)
-4. Check **Verify programming** and **Run after programming**, then click **Start Programming**
+3. Drag and drop the new firmware hex file to **STM32CubeProgrammer**
+4. Press **Download** to flash the new firmware
 
 See `INTEGRATION_AND_OPERATIONS.md` for detailed instructions and troubleshooting.
 

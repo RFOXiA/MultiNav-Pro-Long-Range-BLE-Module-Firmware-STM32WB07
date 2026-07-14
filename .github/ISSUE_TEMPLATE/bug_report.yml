@@ -1,0 +1,81 @@
+name: 🐛 Bug Report
+description: Report a problem with the MultiNav Pro+ BLE Module firmware
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug! Please fill in the details below so we can reproduce and fix it quickly.
+
+  - type: input
+    id: firmware-version
+    attributes:
+      label: Firmware version
+      description: Release tag or commit hash you are running
+      placeholder: "v2.0.0 or commit hash"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: firmware-source
+    attributes:
+      label: Firmware source
+      options:
+        - Prebuilt hex from Releases
+        - Built from source (unmodified)
+        - Built from source (modified)
+    validations:
+      required: true
+
+  - type: textarea
+    id: hardware-setup
+    attributes:
+      label: Hardware setup
+      description: Module revision, connected sensors/peripherals, power source, antenna, etc.
+      placeholder: |
+        - MultiNav Pro+ module
+        - Powered via 3.3V bench supply
+        - GNSS antenna connected
+        - Motor driver on PWM outputs
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Flash v2.0.0
+        2. Connect from RFOXiA Connect app
+        3. Enable sensor telemetry
+        4. ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: UART debug logs
+      description: Output from the debug UART, if available (see debug_log.h). This will be formatted as code automatically.
+      render: shell
+
+  - type: input
+    id: app-version
+    attributes:
+      label: RFOXiA Connect app version (if relevant)
+      placeholder: "e.g. 2.0 on iOS 19 / Android 16"

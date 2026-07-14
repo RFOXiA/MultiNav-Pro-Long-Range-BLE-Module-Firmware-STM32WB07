@@ -1,0 +1,47 @@
+name: 💡 Feature Request
+description: Suggest an improvement or new capability for the firmware
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the suggestion! Note that hardware design changes are out of scope — this repository covers the firmware only.
+
+  - type: textarea
+    id: use-case
+    attributes:
+      label: Use case
+      description: What are you trying to accomplish? Why is this needed?
+      placeholder: "I'm building a drone telemetry system and need..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed behavior
+      description: How should the feature work?
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Any workarounds or other approaches you've tried
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Affected area
+      options:
+        - BLE (advertising, connections, GATT services)
+        - Sensors / telemetry
+        - GNSS
+        - Motor control
+        - Chat / mesh relay
+        - Power management
+        - Other
+    validations:
+      required: true

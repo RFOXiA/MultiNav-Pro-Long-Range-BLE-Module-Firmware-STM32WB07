@@ -4,6 +4,11 @@ Copyright © 2026 RFOXiA, Inc. — Licensed under the **[Apache License 2.0](LIC
 
 This firmware is **open source**: you are free to use, modify, and redistribute the code under the terms of the Apache-2.0 license. Note that the license **explicitly excludes trademark rights** (§6) — no rights are granted to the “MultiNav Pro+” or “RFOXiA” names, logos, or branding. The MultiNav Pro+ **hardware design is proprietary** to RFOXiA, Inc. and is not covered by this license.
 
+> ### 📦 Ready-to-Flash Firmware — No Build Required
+> **Don't want to build from source?** Download the prebuilt V2.0 hex file from the [**latest release**](https://github.com/RFOXiA/MultiNav-Pro-Long-Range-BLE-Module-Firmware-STM32WB07/releases/latest) and flash it directly with STM32CubeProgrammer.
+>
+> **⬇️ [Download MultiNav-Pro-Plus-BLE-Firmware-V2.0.hex](https://github.com/RFOXiA/MultiNav-Pro-Long-Range-BLE-Module-Firmware-STM32WB07/releases/download/v2.0.0/MultiNav-Pro-Plus-BLE-Firmware-V2.0.hex)**
+
 ---
 
 ## ⚡ Get the MultiNav Pro+ Long-Range BLE Module
@@ -105,7 +110,15 @@ Full hardware system diagram of the MultiNav Pro+ BLE module ([PDF version](docs
 
 ## 3. Getting Started
 
-### Build
+### 📦 Option A — Use the Prebuilt Firmware (recommended, no build needed)
+
+A ready-to-flash hex file is published with every release — no STM32CubeIDE or build environment required:
+
+**⬇️ [Download MultiNav-Pro-Plus-BLE-Firmware-V2.0.hex](https://github.com/RFOXiA/MultiNav-Pro-Long-Range-BLE-Module-Firmware-STM32WB07/releases/download/v2.0.0/MultiNav-Pro-Plus-BLE-Firmware-V2.0.hex)** (from [Releases](https://github.com/RFOXiA/MultiNav-Pro-Long-Range-BLE-Module-Firmware-STM32WB07/releases))
+
+Then skip straight to the **Flash** section below.
+
+### 🔨 Option B — Build from Source
 
 1. Open **STM32CubeIDE**
 2. `File → Open Projects from File System…` → select this `Firmware/` folder
@@ -120,7 +133,7 @@ Flash with **STM32CubeProgrammer** over SWD (recommended — flashing directly f
 
 1. Connect an ST-LINK (V2/V3) to the module's SWD pins (see the system diagram below)
 2. Open **STM32CubeProgrammer** and connect (ST-LINK, SWD, Mode: *Under reset* if the target doesn't attach)
-3. Drag and drop the new firmware hex file to **STM32CubeProgrammer**
+3. Drag and drop the firmware hex file (prebuilt from Option A, or your own build from Option B) into **STM32CubeProgrammer**
 4. Press **Download** to flash the new firmware
 
 See `INTEGRATION_AND_OPERATIONS.md` for detailed instructions and troubleshooting.

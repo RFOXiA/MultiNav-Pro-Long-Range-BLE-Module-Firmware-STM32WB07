@@ -1,8 +1,8 @@
 # MultiNav Pro+ BLE Module Firmware V2.0
 
-© RFOXiA, Inc. — **All rights reserved to RFOXiA, Inc.**
+Copyright © 2026 RFOXiA, Inc. — Licensed under the **[Apache License 2.0](LICENSE)**.
 
-This firmware is published as **open source**. You are welcome to read, build, run, and study the code. RFOXiA, Inc. retains all rights to the MultiNav Pro+ product, its brand, and this firmware.
+This firmware is **open source**: you are free to use, modify, and redistribute the code under the terms of the Apache-2.0 license. Note that the license **explicitly excludes trademark rights** (§6) — no rights are granted to the “MultiNav Pro+” or “RFOXiA” names, logos, or branding. The MultiNav Pro+ **hardware design is proprietary** to RFOXiA, Inc. and is not covered by this license.
 
 ---
 
@@ -227,9 +227,13 @@ Firmware/
 
 ## 6. License
 
-Copyright © RFOXiA, Inc. All rights reserved.
+Copyright © 2026 RFOXiA, Inc.
 
-This source code is made available as open source for transparency, education, and community review. Redistribution or commercial use of the MultiNav Pro+ name, branding, or hardware designs requires prior written permission from RFOXiA, Inc.
+This firmware is licensed under the **Apache License, Version 2.0** — see the [LICENSE](LICENSE) file. You may use, modify, and redistribute this code, commercially or otherwise, under the terms of that license.
+
+**Trademarks:** per Section 6 of the Apache-2.0 license, this license does **not** grant any rights to the trade names, trademarks, or product names of RFOXiA, Inc. — including “RFOXiA” and “MultiNav Pro+” names, logos, and branding.
+
+**Hardware:** the MultiNav Pro+ hardware design (schematics, PCB layout, antenna/RF design, mechanical design) is proprietary to RFOXiA, Inc., is not part of this repository, and is not covered by this license.
 
 Third-party components retain their respective licenses:
 
